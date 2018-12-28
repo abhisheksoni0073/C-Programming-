@@ -14,8 +14,8 @@ int main(){
 	}
 	printf("Enter value \n");
 	for(i = 0; i<num; i++){
-		scanf("%d",pt+1);
-		sum+=*(pt+1);
+		scanf("%d",pt+i);
+		sum+=*(pt+i);
 	}
 	printf("Sum Of entered value : \t %d",sum);
 	free(pt);
