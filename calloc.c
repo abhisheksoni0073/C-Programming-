@@ -19,6 +19,6 @@ int main(){
 	}
 	printf("Sum Of entered value : \t %d",sum);
 	free(pt);
-	return 0;
+	
 	
 }
